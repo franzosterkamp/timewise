@@ -2,4 +2,18 @@
   grid-area: 1 / 1 / 2 / 2;
   background-color: $primary-color;
   place-self: center;
+
+  // font-weight: bold;
+  // font-family: "Times New Roman", Times, serif;
+}
+
+.header__time {
+  font-weight: lighter;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header__wise {
+  font-size: 28px;
+  font-weight: bolder;
 }

@@ -3,6 +3,7 @@
   background-color: $secondary-color;
   display: flex;
   justify-content: space-around;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .footer__button__activity {
@@ -12,14 +13,20 @@
   height: 40px;
   width: 120px;
   border: 2px black solid;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 20px;
   background-color: $button_background;
   font-size: 18px;
+  font-weight: bolder;
   outline: none;
+  &:active {
+    background-color: $primary-color;
+  }
 }
 
 .footer__button__hours {
   border: 3px solid black;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
   text-align: center;
   margin: 20px;
   height: 40px;
@@ -28,7 +35,11 @@
   border-radius: 20px;
   background-color: $button_background;
   font-size: 18px;
+  font-weight: bolder;
   outline: none;
+  &:active {
+    background-color: $primary-color;
+  }
 }
 
 .footer__button__plus {
@@ -38,6 +49,7 @@
   margin: 15px;
   width: 50px;
   background-color: $list_color_a;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 50%;
   outline: none;
 
@@ -50,6 +62,7 @@
     background-color: $list_color_b;
     border-radius: 50%;
     outline: none;
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
   }
   .footer__button__plus__icon {
     &:active {

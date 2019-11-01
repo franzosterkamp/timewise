@@ -7,6 +7,7 @@
   grid-area: 3 / 1 / 4 / 2;
   background-color: $primary-color;
   display: flex;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
 
   // margin: 0 10px;
@@ -29,18 +30,22 @@
 .main__list__item_a {
   justify-content: space-between;
   display: flex;
-  height: 40px;
+  align-items: center;
+  height: 30px;
   // width: auto;
   background-color: $list_color_a;
   // border: 2px solid black;
   padding: 10px;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .main__list__item_b {
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  align-items: center;
+  height: 30px;
   // width: auto;
   background-color: $list_color_b;
   // border: 2px solid black;
   padding: 10px;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
 }
