@@ -5,5 +5,42 @@
 
 .main__result {
   grid-area: 3 / 1 / 4 / 2;
-  background-color: red;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+
+  // margin: 0 10px;
+}
+
+.main__result__left {
+  padding: 7px;
+}
+
+.main__result__right {
+  padding: 7px;
+}
+
+.main__list {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+
+.main__list__item_a {
+  justify-content: space-between;
+  display: flex;
+  height: 40px;
+  // width: auto;
+  background-color: $list_color_a;
+  border: 2px solid black;
+  padding: 10px;
+}
+.main__list__item_b {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  // width: auto;
+  background-color: $list_color_b;
+  border: 2px solid black;
+  padding: 10px;
 }

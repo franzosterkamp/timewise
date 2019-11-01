@@ -1,4 +1,5 @@
 .header {
   grid-area: 1 / 1 / 2 / 2;
   background-color: $primary-color;
+  place-self: center;
 }
