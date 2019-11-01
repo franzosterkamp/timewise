@@ -1,0 +1,9 @@
+.main {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: $background-color;
+}
+
+.main__result {
+  grid-area: 3 / 1 / 4 / 2;
+  background-color: red;
+}
